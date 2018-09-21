@@ -1,0 +1,311 @@
+/*Голубой линк для аккордеона*/
+.accordion_link_blue1
+{
+	display:block;
+	width:100%;
+	height:33px;
+	line-height:33px;
+	color:#101010;
+	text-decoration:none;
+	border-radius:3px 3px 0 0;
+}
+.accordion_link_blue1:hover
+{
+	text-decoration:none;
+	background:#5bc0de;
+	color:white;
+}
+.accordion_link_blue1:focus
+{
+	text-decoration:none;
+	background:#5bc0de;
+	color:white;
+}
+.accordion_link_blue1:active
+{
+	text-decoration:none;
+	
+}
+.accordion_link_blue1:target
+{
+	text-decoration:none;
+	background:#5bc0de;
+}
+/*Синий линк для аккордеона*/
+.accordion_link_blue2
+{
+	display:block;
+	width:100%;
+	height:33px;
+	line-height:33px;
+	color:#101010;
+	text-decoration:none;
+	border-radius:3px 3px 0 0;
+}
+.accordion_link_blue2:hover
+{
+	text-decoration:none;
+	background:#4285f4;
+	color:white;
+}
+.accordion_link_blue2:focus
+{
+	text-decoration:none;
+	background:#4285f4;
+	color:white;
+}
+.accordion_link_blue2:active
+{
+	text-decoration:none;
+	
+}
+.accordion_link_blue2:target
+{
+	text-decoration:none;
+	background:#4285f4;
+}
+/*Красные линк для аккордеона*/
+.accordion_link_red
+{
+	display:block;
+	width:100%;
+	height:33px;
+	line-height:33px;
+	color:#101010;
+	text-decoration:none;
+	border-radius:3px 3px 0 0;
+}
+.accordion_link_red:hover
+{
+	text-decoration:none;
+	background:#ff0000;
+	color:white;
+}
+.accordion_link_red:focus
+{
+	text-decoration:none;
+	background:#ff0000;
+	color:white;
+}
+.accordion_link_red:active
+{
+	text-decoration:none;
+	
+}
+.accordion_link_red:target
+{
+	text-decoration:none;
+	background:#d9534f;
+}
+/*Оранжевые линк для аккордеона*/
+.accordion_link_orange
+{
+	display:block;
+	width:100%;
+	height:33px;
+	line-height:33px;
+	color:#101010;
+	text-decoration:none;
+	border-radius:3px 3px 0 0;
+}
+.accordion_link_orange:hover
+{
+	text-decoration:none;
+	background:#FE9A2E;
+	color:white;
+}
+.accordion_link_orange:focus
+{
+	text-decoration:none;
+	background:#FE9A2E;
+	color:white;
+}
+.accordion_link_orange:active
+{
+	text-decoration:none;
+	
+}
+.accordion_link_orange:target
+{
+	text-decoration:none;
+	background:#FE9A2E;
+}
+/*Зеленые линк для аккордеона*/
+.accordion_link_green
+{
+	display:block;
+	width:100%;
+	height:33px;
+	line-height:33px;
+	color:#101010;
+	text-decoration:none;
+	border-radius:3px 3px 0 0;
+}
+.accordion_link_green:hover
+{
+	text-decoration:none;
+	background:#5cb85c;
+	color:white;
+}
+.accordion_link_green:focus
+{
+	text-decoration:none;
+	background:#5cb85c;
+	color:white;
+}
+.accordion_link_green:active
+{
+	text-decoration:none;
+	
+}
+.accordion_link_green:target
+{
+	text-decoration:none;
+	background:#5cb85c;
+}
+
+
+/*ПАРАГРАФ*/
+
+.category_text
+{
+	font-size:0.9em;
+	font-weight:bold;
+}
+.subcategory_text
+{
+	font-size:1.0em;
+	font-weight:normal;
+}
+/*ДЛЯ МОДАЛИ - ВНУТРИ МЕСТА*/
+.modal_cover_img
+{
+	width:230px;
+	height:230px;
+	margin: 0 auto;
+}
+.modal_cover_img_ad
+{
+	width:230px;
+	height:230px;
+	
+}
+/*МЕСТО СНАРУЖИ*/
+.table_info_ad
+{
+	table-layout: auto;
+	width:100%;
+	font-size:0.8em;
+}
+.table_info_ad_modal
+{
+	table-layout: auto;
+	width:100%;
+	font-size:1.1em;
+}
+
+.table_money_ad
+{
+	table-layout: auto;
+	width:100%;
+	font-size:0.9em;
+}
+.tahoma
+{
+	font-family:tahoma;
+}
+.ad_info
+{
+	color:#A4A4A4;
+	font-size:0.7em;
+	text-align: center;
+	
+}
+.font_weight_bold
+{
+	font-weight:bold;
+}
+/*МЕСТО СНАРУЖИ КОНЕЦ*/
+
+/*МЕСТО ВНУТРИ*/
+.ad_country
+{
+	font-size:0.9em;
+	margin:0 auto;
+	color:#A4A4A4;
+}
+.container_ad_icon
+{
+	padding:0;
+	width:100%;
+	min-height:25px;
+	line-height:25px;
+	
+}
+.btn_icon
+{
+	width:25px;
+	height:25px;
+	padding:0 2px 4px 2px;
+}
+.ad_phone_font
+{
+	font-size:1.4em;
+}
+/*МЕСТО ВНУТРИ КОНЕЦ*/
+
+
+/*ИКОНКИ ОПЦИИ В ОБЪЯВЛЕНИИ*/
+.icon
+{
+	width:24px;
+	height:24px;
+	float:left;
+	padding:3px;
+}
+/*ЗНАЧКИ ДОБАВИТЬ МЕСТО ДОП ОПЦИИ*/
+.icon_options
+{
+	width:24px;
+	height:24px;	
+}
+/*КНОПКА ОПЦИИ ДЛЯ ОБЪЯВЛЕНИЯ 9ВНУТРИО БЪЯВЛЕНИЯ*/
+.btn_options
+{
+	width:25px;
+	height:25px;
+	padding:0px;
+	margin:10px 10px 0 0;
+}
+.btn_question
+{
+	width:25px;
+	height:25px;
+}
+.btn_question_add_ad
+{
+	width:25px;
+	height:25px;
+	margin:10px 0 0 0;
+}
+/*ВНУТРИ ОБЪЯВЛЕНИЯ КАТЕГОРИЯ РЕЙТИНГ СРЕДНИЙ ЧЕК*/
+.container_info
+{
+	width:100%;
+	float:left;
+	font-size:0.9em;
+}
+.container_info_left
+{
+	width:50%;
+	float:left;
+	
+}
+.container_info_right
+{
+	width:50%;
+	float:left;
+	font-weight:bold;
+}
+
+

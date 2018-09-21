@@ -1,0 +1,12 @@
+{% block content %}
+<div class="row">
+    <div class="col-md-12">
+        <div class="div_shadow effect2">
+        <button type="button" class="btn btn-success m_t20" data-toggle="tooltip" data-placement="top" title="Tooltip on top" onclick="location.href='{% url 'index' %}'"><span class="glyphicon glyphicon-home"></span>&nbsp;Главная</button>
+        <button type="button" class="btn btn-default m_t20" onclick="location.href='{% url 'search' %}'"><span class="glyphicon glyphicon-search"></span>&nbsp;Поиск</button>
+        <button type="button" class="btn btn-default m_t20" onClick="location.href='{% url 'added_places' %}'"><span class="glyphicon glyphicon-ok-circle"></span>&nbsp;Мои добавленные места</button>
+        <button type="button" class="btn btn-default m_t20" onClick="location.href='{% url 'liked_places' %}'"><span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;Мне понравились места</button>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head lang="{{LANGUAGE_CODE}}">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Главная</title>
+    {% load staticfiles %}
+    <!-- Bootstrap -->
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/main.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/check_radio.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/add_ad.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/bootstrap-theme.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/fonts.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/search.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/tipped.css' %}" rel="stylesheet" type="text/css">
+
+    <!--carousel-->
+
+    <link rel="stylesheet" type="text/css" href="{% static 'slick-1.5.9/slick/slick.css' %}" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'slick-1.5.9/slick/slick-theme.css' %}" type="text/css"/>
+
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="icon" type="image/ico" sizes="32x32" href="{% static 'images/favicon.ico' %}">
+</head>
+<body>
+    <!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+    {% block content %}
+
+    {% endblock %}
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+
+    <!--carousel-->
+    <!--<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
+    <script type="text/javascript" src="{% static 'slick-1.5.9/slick/slick.js' %}"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').slick({
+                dots: true,
+                autoplay: true,
+                arrows: false,
+                autoplay: true,
+                autoplaySpeed: 4000,
+                speed: 300,
+                slidesToShow: 4,
+                slidesToScroll: 4
+            });
+
+        });
+    </script>
+</body>
+</html>

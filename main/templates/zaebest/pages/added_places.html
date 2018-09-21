@@ -1,0 +1,240 @@
+{% extends "zaebest/wrapper.html" %}
+
+{% block content %}
+{% load staticfiles %}
+{% include "zaebest/includes/header.html" %}
+<div class="container min_height">
+    <!-- НАВИГАЦИЯ -->
+    {% include "zaebest/includes/nav_button.html" %}
+    <!-- НАВИГАЦИЯ КОНЕЦ -->
+    <div class="row m_t20">
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-phone zindex1 m_t20">
+
+            <div class="container_ad">
+
+                <a href="#" data-toggle="modal" data-target="#modal_ad"></a>
+                <div>
+                    <div class="name_ad">
+                        <span>Линкорн</span>
+                        <table class="table_info_ad">
+                            <tr>
+                                <td><span class="ad_info">ID:</span></td>
+                                <td><span class="ad_info">999999999&nbsp;</span></td>
+                                <td><span class="ad_info">Добавлено:</span></td>
+                                <td><span class="ad_info">30.08.2016&nbsp;</span></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="img_ad">
+                        <img class="img-responsive img-thumbnail" src="{% static  'images/img_test2.png' %}" alt="Картинка">
+                    </div>
+                    <div class="money_ad">
+                        <table class="table_money_ad tahoma">
+                            <tr>
+                                <td><span>Категория</span></td><td><span class="c_orange font_weight_bold">Рестораны</span></td>
+                            </tr>
+                            <tr>
+                                <td>Рейтинг</td><td><span class="font_weight_bold c_red">40%</span></td>
+                            </tr>
+                            <tr>
+                                <td>Средний чек</td><td><span class="font_weight_bold c_blue1">1000</span>&nbsp;руб.</td>
+                            </tr>
+                        </table>
+                        <div class="icon">
+                            <img class="img-responsive" src="{% static  'images/icon_options/wifi.png' %}" alt="wifi">
+                        </div>
+                        <div class="icon">
+                            <img class="img-responsive" src="{% static  'images/icon_options/phone.png' %}" alt="phone">
+                        </div>
+                        <!--<h4 class="text-center"><span class="c_orange">Рестораны</span></h4>
+                        <h4 class="text-center">Средний чек: <span class="c_blue">999999</span>&nbsp;руб.</h4>
+                        <h4 class="text-center">Рейтинг: <span class="c_red">&nbsp;29%</span></h4>-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 f_s09 m_t20">
+                <div class="text-center">Статус:&nbsp;&nbsp;<span class="glyphicon glyphicon-minus-sign c_red"></span>&nbsp;&nbsp;<span class="text-center c_red">На модерации</span></div>
+            </div>
+            <div class="col-md-12">
+                    <button type="button" class="btn btn-default width100 m_t20" ><span class="glyphicon glyphicon-edit"></span>&nbsp;&nbsp;Редактировать</button>
+                    <button type="button" class="btn btn-default width100 m_t20" data-toggle="modal" data-target="#modal_del"><span class="glyphicon glyphicon-remove-sign c_red"></span>&nbsp;&nbsp;Удалить</button>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-phone zindex1 m_t20">
+            <div class="container_ad">
+                <a href="#" data-toggle="modal" data-target="#modal_ad"></a>
+                <div>
+                    <div class="name_ad">
+                        <span>Линкорн</span>
+                        <table class="table_info_ad">
+                            <tr>
+                                <td><span class="ad_info">ID:</span></td>
+                                <td><span class="ad_info">999999999&nbsp;</span></td>
+                                <td><span class="ad_info">Добавлено:</span></td>
+                                <td><span class="ad_info">30.08.2016&nbsp;</span></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="img_ad">
+                        <img class="img-responsive img-thumbnail" src="{% static  'images/img_test2.png' %}" alt="Картинка">
+                    </div>
+                    <div class="money_ad">
+                        <table class="table_money_ad tahoma">
+                            <tr>
+                                <td><span>Категория</span></td><td><span class="c_orange font_weight_bold">Рестораны</span></td>
+                            </tr>
+                            <tr>
+                                <td>Рейтинг</td><td><span class="font_weight_bold c_red">40%</span></td>
+                            </tr>
+                            <tr>
+                                <td>Средний чек</td><td><span class="font_weight_bold c_blue1">1000</span>&nbsp;руб.</td>
+                            </tr>
+                        </table>
+                        <div class="icon">
+                            <img class="img-responsive" src="{% static  'images/icon_options/wifi.png' %}" alt="wifi">
+                        </div>
+                        <div class="icon">
+                            <img class="img-responsive" src="{% static  'images/icon_options/phone.png' %}" alt="phone">
+                        </div>
+                        <!--<h4 class="text-center"><span class="c_orange">Рестораны</span></h4>
+                        <h4 class="text-center">Средний чек: <span class="c_blue">999999</span>&nbsp;руб.</h4>
+                        <h4 class="text-center">Рейтинг: <span class="c_red">&nbsp;29%</span></h4>-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 f_s09 m_t20">
+                <div class="text-center">Статус:&nbsp;&nbsp;<span class="glyphicon glyphicon-ok-sign c_green"></span>&nbsp;&nbsp;<span class="text-center c_green">Место добавлено</span></div>
+            </div>
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <button type="button" class="btn btn-default width100 m_t20" ><span class="glyphicon glyphicon-edit"></span>&nbsp;&nbsp;Редактировать</button>
+                    <button type="button" class="btn btn-default width100 m_t20" data-toggle="modal" data-target="#modal_del"><span class="glyphicon glyphicon-remove-sign c_red"></span>&nbsp;&nbsp;Удалить</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-phone zindex1 m_t20">
+            <div class="container_ad">
+                <a href="#" data-toggle="modal" data-target="#modal_ad"></a>
+                <div>
+                    <div class="name_ad">
+                        <span>Линкорн</span>
+                        <table class="table_info_ad">
+                            <tr>
+                                <td><span class="ad_info">ID:</span></td>
+                                <td><span class="ad_info">999999999&nbsp;</span></td>
+                                <td><span class="ad_info">Добавлено:</span></td>
+                                <td><span class="ad_info">30.08.2016&nbsp;</span></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="img_ad">
+                        <img class="img-responsive img-thumbnail" src="{% static  'images/img_test2.png' %}" alt="Картинка">
+                    </div>
+                    <div class="money_ad">
+                        <table class="table_money_ad tahoma">
+                            <tr>
+                                <td><span>Категория</span></td><td><span class="c_orange font_weight_bold">Рестораны</span></td>
+                            </tr>
+                            <tr>
+                                <td>Рейтинг</td><td><span class="font_weight_bold c_red">40%</span></td>
+                            </tr>
+                            <tr>
+                                <td>Средний чек</td><td><span class="font_weight_bold c_blue1">1000</span>&nbsp;руб.</td>
+                            </tr>
+                        </table>
+                        <div class="icon">
+                            <img class="img-responsive" src="{% static  'images/icon_options/wifi.png' %}" alt="wifi">
+                        </div>
+                        <div class="icon">
+                            <img class="img-responsive" src="{% static  'images/icon_options/phone.png' %}" alt="phone">
+                        </div>
+                        <!--<h4 class="text-center"><span class="c_orange">Рестораны</span></h4>
+                        <h4 class="text-center">Средний чек: <span class="c_blue">999999</span>&nbsp;руб.</h4>
+                        <h4 class="text-center">Рейтинг: <span class="c_red">&nbsp;29%</span></h4>-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <button type="button" class="btn btn-default width100 m_t20" ><span class="glyphicon glyphicon-edit"></span>&nbsp;&nbsp;Редактировать</button>
+                    <button type="button" class="btn btn-default width100 m_t20" data-toggle="modal" data-target="#modal_del"><span class="glyphicon glyphicon-remove-sign c_red"></span>&nbsp;&nbsp;Удалить</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-phone zindex1 m_t20">
+            <div class="container_ad">
+                <a href="#" data-toggle="modal" data-target="#modal_ad"></a>
+                <div>
+                    <div class="name_ad">
+                        <span>Линкорн</span>
+                        <table class="table_info_ad">
+                            <tr>
+                                <td><span class="ad_info">ID:</span></td>
+                                <td><span class="ad_info">999999999&nbsp;</span></td>
+                                <td><span class="ad_info">Добавлено:</span></td>
+                                <td><span class="ad_info">30.08.2016&nbsp;</span></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="img_ad">
+                        <img class="img-responsive img-thumbnail" src="{% static  'images/img_test2.png' %}" alt="Картинка">
+                    </div>
+                    <div class="money_ad">
+                        <table class="table_money_ad tahoma">
+                            <tr>
+                                <td><span>Категория</span></td><td><span class="c_orange font_weight_bold">Рестораны</span></td>
+                            </tr>
+                            <tr>
+                                <td>Рейтинг</td><td><span class="font_weight_bold c_red">40%</span></td>
+                            </tr>
+                            <tr>
+                                <td>Средний чек</td><td><span class="font_weight_bold c_blue1">1000</span>&nbsp;руб.</td>
+                            </tr>
+                        </table>
+                        <div class="icon">
+                            <img class="img-responsive" src="{% static  'images/icon_options/wifi.png' %}" alt="wifi">
+                        </div>
+                        <div class="icon">
+                            <img class="img-responsive" src="{% static  'images/icon_options/phone.png' %}" alt="phone">
+                        </div>
+                        <!--<h4 class="text-center"><span class="c_orange">Рестораны</span></h4>
+                        <h4 class="text-center">Средний чек: <span class="c_blue">999999</span>&nbsp;руб.</h4>
+                        <h4 class="text-center">Рейтинг: <span class="c_red">&nbsp;29%</span></h4>-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <button type="button" class="btn btn-default width100 m_t20" ><span class="glyphicon glyphicon-edit"></span>&nbsp;&nbsp;Редактировать</button>
+                    <button type="button" class="btn btn-default width100 m_t20" data-toggle="modal" data-target="#modal_del"><span class="glyphicon glyphicon-remove-sign c_red"></span>&nbsp;&nbsp;Удалить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--ПАГИНАЦИЯ-->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="text_center">
+                <ul class="pagination">
+                    <li class="disabled"><span>«</span></li>
+                    <li class="active"><span>1</span></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">»</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--ПАГИНАЦИЯ КОНЕЦ-->
+
+</div>
+{% include "zaebest/includes/modal.html" %}
+{% include "zaebest/includes/footer.html" %}
+{% endblock %}

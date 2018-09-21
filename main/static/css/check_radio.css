@@ -1,0 +1,730 @@
+/*АВТОРИЗАЦИЯ ЧЕКБОКС*/
+/* Cначала обозначаем стили для IE8 и более старых версий
+т.е. здесь мы немного облагораживаем стандартный чекбокс. */
+.checkbox_blue1
+{
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px;
+}
+/* Это для всех браузеров, кроме совсем старых, которые не поддерживают
+селекторы с плюсом. Показываем, что label кликабелен. */
+.checkbox_blue1 + label 
+{
+	cursor: pointer;
+}
+/* Далее идет оформление чекбокса в современных браузерах, а также IE9 и выше.
+Благодаря тому, что старые браузеры не поддерживают селекторы :not и :checked,
+в них все нижеследующие стили не сработают. */
+
+/* Прячем оригинальный чекбокс. */
+.checkbox_blue1:not(checked) {
+	position: absolute;
+	opacity: 0;
+}
+.checkbox_blue1:not(checked) + label {
+	position: relative; /* будем позиционировать псевдочекбокс относительно label */
+	padding: 12px 0 0 60px; /* оставляем слева от label место под псевдочекбокс */
+	font-weight:normal;
+}
+/* Оформление первой части чекбокса в выключенном состоянии (фон). */
+.checkbox_blue1:not(checked) + label:before {
+	content: '';
+	position: absolute;
+	top: 10px;
+	left: 0;
+	width: 46px;
+	height: 22px;
+	border-radius: 0px;
+	background: #CDD1DA;
+	box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+}
+/* Оформление второй части чекбокса в выключенном состоянии (переключатель). */
+.checkbox_blue1:not(checked) + label:after {
+	content: '';
+	position:absolute;
+	top: 12px;
+	left: 2px;
+	width: 18px;
+	height: 18px;
+	border-radius: 0px;
+	background: #FFF;
+	box-shadow: 0 2px 5px rgba(0,0,0,.3);
+	transition: all .2s; /* анимация, чтобы чекбокс переключался плавно */
+}
+/* Меняем фон чекбокса, когда он включен. */
+.checkbox_blue1:checked + label:before 
+{
+	background: #4285f4;
+}
+/* Сдвигаем переключатель чекбокса, когда он включен. */
+.checkbox_blue1:checked + label:after 
+{
+	left: 26px;
+}
+/* Показываем получение фокуса. */
+.checkbox_blue1:focus + label:before 
+{
+	box-shadow: 0 0 0 3px rgba(66,133,244,.5);
+}
+
+/*АВТОРИЗАЦИЯ ЧЕКБОКС*/
+/* Cначала обозначаем стили для IE8 и более старых версий
+т.е. здесь мы немного облагораживаем стандартный чекбокс. */
+.checkbox_blue2
+{
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px;
+}
+/* Это для всех браузеров, кроме совсем старых, которые не поддерживают
+селекторы с плюсом. Показываем, что label кликабелен. */
+.checkbox_blue2 + label 
+{
+	cursor: pointer;
+}
+/* Далее идет оформление чекбокса в современных браузерах, а также IE9 и выше.
+Благодаря тому, что старые браузеры не поддерживают селекторы :not и :checked,
+в них все нижеследующие стили не сработают. */
+
+/* Прячем оригинальный чекбокс. */
+.checkbox_blue2:not(checked) {
+	position: absolute;
+	opacity: 0;
+}
+.checkbox_blue2:not(checked) + label {
+	position: relative; /* будем позиционировать псевдочекбокс относительно label */
+	padding: 12px 0 0 60px; /* оставляем слева от label место под псевдочекбокс */
+	font-weight:normal;
+}
+/* Оформление первой части чекбокса в выключенном состоянии (фон). */
+.checkbox_blue2:not(checked) + label:before {
+	content: '';
+	position: absolute;
+	top: 10px;
+	left: 0;
+	width: 46px;
+	height: 22px;
+	border-radius: 0px;
+	background: #CDD1DA;
+	box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+}
+/* Оформление второй части чекбокса в выключенном состоянии (переключатель). */
+.checkbox_blue2:not(checked) + label:after {
+	content: '';
+	position:absolute;
+	top: 12px;
+	left: 2px;
+	width: 18px;
+	height: 18px;
+	border-radius: 0px;
+	background: #FFF;
+	box-shadow: 0 2px 5px rgba(0,0,0,.3);
+	transition: all .2s; /* анимация, чтобы чекбокс переключался плавно */
+}
+/* Меняем фон чекбокса, когда он включен. */
+.checkbox_blue2:checked + label:before 
+{
+	background:#5bc0de;
+}
+/* Сдвигаем переключатель чекбокса, когда он включен. */
+.checkbox_blue2:checked + label:after 
+{
+	left: 26px;
+}
+/* Показываем получение фокуса. */
+.checkbox_blue2:focus + label:before 
+{
+	box-shadow: 0 0 0 3px rgba(91,192,222,.5);
+}
+
+
+/*АВТОРИЗАЦИЯ ЧЕКБОКС*/
+.checkbox_red
+{
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px;
+}
+.checkbox_red + label 
+{
+	cursor: pointer;
+}
+.checkbox_red:not(checked) {
+	position: absolute;
+	opacity: 0;
+}
+.checkbox_red:not(checked) + label {
+	position: relative;
+	padding: 10px 0 0 60px;
+	font-weight:normal;
+}
+.checkbox_red:not(checked) + label:before {
+	content: '';
+	position: absolute;
+	top: 10px;
+	left: 0;
+	width: 46px;
+	height: 22px;
+	border-radius: 0px;
+	background: #CDD1DA;
+	box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+}
+.checkbox_red:not(checked) + label:after {
+	content: '';
+	position:absolute;
+	top: 12px;
+	left: 2px;
+	width: 18px;
+	height: 18px;
+	border-radius: 0px;
+	background: #FFF;
+	box-shadow: 0 2px 5px rgba(0,0,0,.3);
+	transition: all .2s; 
+}
+.checkbox_red:checked + label:before 
+{
+	background: #FF0000;
+}
+.checkbox_red:checked + label:after 
+{
+	left: 26px;
+}
+.checkbox_red:focus + label:before 
+{
+	box-shadow: 0 0 0 3px rgba(255, 0, 0,.5);
+} 
+
+
+
+
+/*АВТОРИЗАЦИЯ ЧЕКБОКС*/
+.checkbox_green
+{
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px;
+}
+.checkbox_green + label 
+{
+	cursor: pointer;
+}
+.checkbox_green:not(checked) {
+	position: absolute;
+	opacity: 0;
+}
+.checkbox_green:not(checked) + label {
+	position: relative;
+	padding: 10px 0 0 60px;
+	font-weight:normal;
+}
+.checkbox_green:not(checked) + label:before {
+	content: '';
+	position: absolute;
+	top: 10px;
+	left: 0;
+	width: 46px;
+	height: 22px;
+	border-radius: 0px;
+	background: #CDD1DA;
+	box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+}
+.checkbox_green:not(checked) + label:after {
+	content: '';
+	position:absolute;
+	top: 12px;
+	left: 2px;
+	width: 18px;
+	height: 18px;
+	border-radius: 0px;
+	background: #FFF;
+	box-shadow: 0 2px 5px rgba(0,0,0,.3);
+	transition: all .2s; 
+}
+.checkbox_green:checked + label:before 
+{
+	background: #5cb85c;
+}
+.checkbox_green:checked + label:after 
+{
+	left: 26px;
+}
+.checkbox_green:focus + label:before 
+{
+	box-shadow: 0 0 0 3px rgba(92, 184, 92,.5);
+} 
+
+
+/*АВТОРИЗАЦИЯ ЧЕКБОКС*/
+.checkbox_orange
+{
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px;
+}
+.checkbox_orange + label 
+{
+	cursor: pointer;
+}
+.checkbox_orange:not(checked) {
+	position: absolute;
+	opacity: 0;
+}
+.checkbox_orange:not(checked) + label {
+	position: relative;
+	padding: 10px 0 0 60px;
+	font-weight:normal;
+}
+.checkbox_orange:not(checked) + label:before {
+	content: '';
+	position: absolute;
+	top: 10px;
+	left: 0;
+	width: 46px;
+	height: 22px;
+	border-radius: 0px;
+	background: #CDD1DA;
+	box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+}
+.checkbox_orange:not(checked) + label:after {
+	content: '';
+	position:absolute;
+	top: 12px;
+	left: 2px;
+	width: 18px;
+	height: 18px;
+	border-radius: 0px;
+	background: #FFF;
+	box-shadow: 0 2px 5px rgba(0,0,0,.3);
+	transition: all .2s; 
+}
+.checkbox_orange:checked + label:before 
+{
+	background: #FF8000;
+}
+.checkbox_orange:checked + label:after 
+{
+	left: 26px;
+}
+.checkbox_orange:focus + label:before 
+{
+	box-shadow: 0 0 0 3px rgba(255, 128, 0,.5);
+} 
+
+
+/*АВТОРИЗАЦИЯ ЧЕКБОКС*/
+.checkbox_pink
+{
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px;
+}
+.checkbox_pink + label 
+{
+	cursor: pointer;
+}
+.checkbox_pink:not(checked) {
+	position: absolute;
+	opacity: 0;
+}
+.checkbox_pink:not(checked) + label {
+	position: relative;
+	padding: 10px 0 0 60px;
+	font-weight:normal;
+}
+.checkbox_pink:not(checked) + label:before {
+	content: '';
+	position: absolute;
+	top: 10px;
+	left: 0;
+	width: 46px;
+	height: 22px;
+	border-radius: 0px;
+	background: #CDD1DA;
+	box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+}
+.checkbox_pink:not(checked) + label:after {
+	content: '';
+	position:absolute;
+	top: 12px;
+	left: 2px;
+	width: 18px;
+	height: 18px;
+	border-radius: 0px;
+	background: #FFF;
+	box-shadow: 0 2px 5px rgba(0,0,0,.3);
+	transition: all .2s; 
+}
+.checkbox_pink:checked + label:before 
+{
+	background: #FE2EF7;
+}
+.checkbox_pink:checked + label:after 
+{
+	left: 26px;
+}
+.checkbox_pink:focus + label:before 
+{
+	box-shadow: 0 0 0 3px rgba(254, 46, 247,.5);
+} 
+
+/*СЕРЫЙ ЧЕКБОКС*/
+.checkbox_gray
+{
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px;
+}
+.checkbox_gray + label 
+{
+	cursor: pointer;
+}
+.checkbox_gray:not(checked) {
+	position: absolute;
+	opacity: 0;
+}
+.checkbox_gray:not(checked) + label {
+	position: relative;
+	padding: 10px 0 0 60px;
+	font-weight:normal;
+}
+.checkbox_gray:not(checked) + label:before {
+	content: '';
+	position: absolute;
+	top: 10px;
+	left: 0;
+	width: 46px;
+	height: 22px;
+	border-radius: 0px;
+	background: #CDD1DA;
+	box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+}
+.checkbox_gray:not(checked) + label:after {
+	content: '';
+	position:absolute;
+	top: 12px;
+	left: 2px;
+	width: 18px;
+	height: 18px;
+	border-radius: 0px;
+	background: #FFF;
+	box-shadow: 0 2px 5px rgba(0,0,0,.3);
+	transition: all .2s; 
+}
+.checkbox_gray:checked + label:before 
+{
+	background: #848484;
+}
+.checkbox_gray:checked + label:after 
+{
+	left: 26px;
+}
+.checkbox_gray:focus + label:before 
+{
+	box-shadow: 0 0 0 3px rgba(132, 132, 132,.5);
+} 
+
+
+
+
+/*ЗЕЛЕНЫЕ РАДИОБОКСЫ*/
+.radio_green {
+	vertical-align: top;
+	width: 17px;
+	height: 17px;
+	margin: 0 3px 0 0;
+}
+.radio_green + label {
+	cursor: pointer;
+}
+.radio_green:not(checked) {
+	position: absolute;
+	opacity: 0;
+}
+.radio_green:not(checked) + label {
+	position: relative;
+	padding: 0 0 0 35px;
+}
+.radio_green:not(checked) + label:before {
+	content: '';
+	position: absolute;
+	top: -3px;
+	left: 0;
+	width: 22px;
+	height: 22px;
+	border: 1px solid #CDD1DA;
+	border-radius: 50%;
+	background: #FFF;
+}
+.radio_green:not(checked) + label:after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: #5cb85c;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.5);
+	opacity: 0;
+	transition: all .2s;
+}
+.radio_green:checked + label:after {
+	opacity: 1;
+}
+.radio_green:focus + label:before {
+	box-shadow: 0 0 0 3px rgba(92,184,92,.5);
+}
+
+/*СИНИЕ РАДИОБОКСЫ*/
+.radio_blue {
+	vertical-align: top;
+	width: 17px;
+	height: 17px;
+	margin: 0 3px 0 0;
+}
+.radio_blue + label {
+	cursor: pointer;
+}
+.radio_blue:not(checked) {
+	position: absolute;
+	opacity: 0;
+}
+.radio_blue:not(checked) + label {
+	position: relative;
+	padding: 0 0 0 35px;
+}
+.radio_blue:not(checked) + label:before {
+	content: '';
+	position: absolute;
+	top: -3px;
+	left: 0;
+	width: 22px;
+	height: 22px;
+	border: 1px solid #CDD1DA;
+	border-radius: 50%;
+	background: #FFF;
+}
+.radio_blue:not(checked) + label:after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: #428bca;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.5);
+	opacity: 0;
+	transition: all .2s;
+}
+.radio_blue:checked + label:after {
+	opacity: 1;
+}
+.radio_blue:focus + label:before {
+	box-shadow: 0 0 0 3px rgba(66,139,202,.5);
+}
+
+/*ГОЛУБЫЕ РАДИОБОКСЫ*/
+.radio_blue1 {
+	vertical-align: top;
+	width: 17px;
+	height: 17px;
+	margin: 0 3px 0 0;
+}
+.radio_blue1 + label {
+	cursor: pointer;
+}
+.radio_blue1:not(checked) {
+	position: absolute;
+	opacity: 0;
+}
+.radio_blue1:not(checked) + label {
+	position: relative;
+	padding: 0 0 0 35px;
+}
+.radio_blue1:not(checked) + label:before {
+	content: '';
+	position: absolute;
+	top: -3px;
+	left: 0;
+	width: 22px;
+	height: 22px;
+	border: 1px solid #CDD1DA;
+	border-radius: 50%;
+	background: #FFF;
+}
+.radio_blue1:not(checked) + label:after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: #5bc0de;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.5);
+	opacity: 0;
+	transition: all .2s;
+}
+.radio_blue1:checked + label:after {
+	opacity: 1;
+}
+.radio_blue1:focus + label:before {
+	box-shadow: 0 0 0 3px rgba(91,192,222,.5);
+}
+
+
+/*КРАСНЫЕ РАДИОБОКСЫ*/
+.radio_red {
+	vertical-align: top;
+	width: 17px;
+	height: 17px;
+	margin: 0 3px 0 0;
+}
+.radio_red + label {
+	cursor: pointer;
+}
+.radio_red:not(checked) {
+	position: absolute;
+	opacity: 0;
+}
+.radio_red:not(checked) + label {
+	position: relative;
+	padding: 0 0 0 35px;
+}
+.radio_red:not(checked) + label:before {
+	content: '';
+	position: absolute;
+	top: -3px;
+	left: 0;
+	width: 22px;
+	height: 22px;
+	border: 1px solid #CDD1DA;
+	border-radius: 50%;
+	background: #FFF;
+}
+.radio_red:not(checked) + label:after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: #d9534f;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.5);
+	opacity: 0;
+	transition: all .2s;
+}
+.radio_red:checked + label:after {
+	opacity: 1;
+}
+.radio_red:focus + label:before {
+	box-shadow: 0 0 0 3px rgba(217,83,79,.5);
+}
+
+/*ОРАНЖЕВЫЕ РАДИОБОКСЫ*/
+.radio_orange {
+	vertical-align: top;
+	width: 17px;
+	height: 17px;
+	margin: 0 3px 0 0;
+}
+.radio_orange + label {
+	cursor: pointer;
+}
+.radio_orange:not(checked) {
+	position: absolute;
+	opacity: 0;
+}
+.radio_orange:not(checked) + label {
+	position: relative;
+	padding: 0 0 0 35px;
+}
+.radio_orange:not(checked) + label:before {
+	content: '';
+	position: absolute;
+	top: -3px;
+	left: 0;
+	width: 22px;
+	height: 22px;
+	border: 1px solid #CDD1DA;
+	border-radius: 50%;
+	background: #FFF;
+}
+.radio_orange:not(checked) + label:after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: #FE9A2E;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.5);
+	opacity: 0;
+	transition: all .2s;
+}
+.radio_orange:checked + label:after {
+	opacity: 1;
+}
+.radio_orange:focus + label:before {
+	box-shadow: 0 0 0 3px rgba(255,154,46,.5);
+}
+
+/*РАДИО СЕРЫЕ*/
+.radio_gray {
+	vertical-align: top;
+	width: 17px;
+	height: 17px;
+	margin: 0 3px 0 0;
+}
+.radio_gray + label {
+	cursor: pointer;
+}
+.radio_gray:not(checked) {
+	position: absolute;
+	opacity: 0;
+}
+.radio_gray:not(checked) + label {
+	position: relative;
+	padding: 0 0 0 35px;
+}
+.radio_gray:not(checked) + label:before {
+	content: '';
+	position: absolute;
+	top: -3px;
+	left: 0;
+	width: 22px;
+	height: 22px;
+	border: 1px solid #CDD1DA;
+	border-radius: 50%;
+	background: #FFF;
+}
+.radio_gray:not(checked) + label:after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: #848484;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.5);
+	opacity: 0;
+	transition: all .2s;
+}
+.radio_gray:checked + label:after {
+	opacity: 1;
+}
+.radio_gray:focus + label:before {
+	box-shadow: 0 0 0 3px rgba(132,132,132,.5);
+}

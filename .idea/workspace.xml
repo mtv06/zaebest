@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0600bbd-8c64-483f-8082-c6ad06a60a83" name="Default Changelist" comment="" />
+    <list default="true" id="e0600bbd-8c64-483f-8082-c6ad06a60a83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/main/templates/zaebest/includes/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/templates/zaebest/includes/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/templates/zaebest/includes/modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/templates/zaebest/includes/nav_button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/templates/zaebest/pages/added_places.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/templates/zaebest/pages/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/templates/zaebest/pages/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/templates/zaebest/wrapper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/zaebest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/zaebest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zaebest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/zaebest/urls.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,42 +28,217 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="1" />
+          <entry key="css" value="1" />
+          <entry key="html" value="15" />
+          <entry key="py" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="1" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="15" />
+          <entry key="Python" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
+          <entry key="git.branch.checkout.local" value="4" />
           <entry key="git.branch.checkout.revision" value="1" />
+          <entry key="git.branch.merge" value="1" />
           <entry key="git.branch.rebase" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="txt" value="8" />
+          <entry key="html" value="308" />
+          <entry key="py" value="209" />
+          <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="HTML" value="308" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="209" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zaebest/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1632">
+              <caret line="96" selection-start-line="96" selection-end-line="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+                <marker date="1537535044235" expanded="true" signature="336:341" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="45" selection-start-column="45" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/templates/zaebest/includes/modal.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/templates/zaebest/pages/added_places.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+              <folding>
+                <element signature="e#1894#1900#0#HTML" expanded="true" />
+                <element signature="e#2016#2022#0#HTML" expanded="true" />
+                <element signature="e#2633#2639#0#HTML" expanded="true" />
+                <element signature="e#3317#3323#0#HTML" expanded="true" />
+                <element signature="e#3323#3329#0#HTML" expanded="true" />
+                <element signature="e#3387#3393#0#HTML" expanded="true" />
+                <element signature="e#3393#3399#0#HTML" expanded="true" />
+                <element signature="e#3613#3619#0#HTML" expanded="true" />
+                <element signature="e#3619#3625#0#HTML" expanded="true" />
+                <element signature="e#3820#3826#0#HTML" expanded="true" />
+                <element signature="e#3826#3832#0#HTML" expanded="true" />
+                <element signature="e#4272#4278#0#HTML" expanded="true" />
+                <element signature="e#4394#4400#0#HTML" expanded="true" />
+                <element signature="e#5011#5017#0#HTML" expanded="true" />
+                <element signature="e#5695#5701#0#HTML" expanded="true" />
+                <element signature="e#5701#5707#0#HTML" expanded="true" />
+                <element signature="e#5764#5770#0#HTML" expanded="true" />
+                <element signature="e#5770#5776#0#HTML" expanded="true" />
+                <element signature="e#6025#6031#0#HTML" expanded="true" />
+                <element signature="e#6031#6037#0#HTML" expanded="true" />
+                <element signature="e#6232#6238#0#HTML" expanded="true" />
+                <element signature="e#6238#6244#0#HTML" expanded="true" />
+                <element signature="e#6697#6703#0#HTML" expanded="true" />
+                <element signature="e#6819#6825#0#HTML" expanded="true" />
+                <element signature="e#7436#7442#0#HTML" expanded="true" />
+                <element signature="e#8215#8221#0#HTML" expanded="true" />
+                <element signature="e#8221#8227#0#HTML" expanded="true" />
+                <element signature="e#8422#8428#0#HTML" expanded="true" />
+                <element signature="e#8428#8434#0#HTML" expanded="true" />
+                <element signature="e#8887#8893#0#HTML" expanded="true" />
+                <element signature="e#9009#9015#0#HTML" expanded="true" />
+                <element signature="e#9626#9632#0#HTML" expanded="true" />
+                <element signature="e#10405#10411#0#HTML" expanded="true" />
+                <element signature="e#10411#10417#0#HTML" expanded="true" />
+                <element signature="e#10612#10618#0#HTML" expanded="true" />
+                <element signature="e#10618#10624#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/templates/zaebest/pages/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="47" column="109" selection-start-line="47" selection-start-column="109" selection-end-line="47" selection-end-column="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/templates/zaebest/pages/search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="250" column="107" selection-start-line="250" selection-start-column="103" selection-end-line="250" selection-end-column="107" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>img</find>
+      <find>.table_info_ad</find>
+      <find>phono</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main/templates/wrapper.py" />
+        <option value="$PROJECT_DIR$/main/templates/wrapper.html" />
+        <option value="$PROJECT_DIR$/main/templates/index.html" />
+        <option value="$PROJECT_DIR$/main/templates/zaebest/index.html" />
+        <option value="$PROJECT_DIR$/zaebest/urls.py" />
+        <option value="$PROJECT_DIR$/zaebest/settings.py" />
+        <option value="$PROJECT_DIR$/main/templates/zaebest/includes/footer.py" />
+        <option value="$PROJECT_DIR$/main/templates/zaebest/includes/main.html" />
+        <option value="$PROJECT_DIR$/main/templates/zaebest/includes/footer.html" />
+        <option value="$PROJECT_DIR$/main/templates/zaebest/includes/button.html" />
+        <option value="$PROJECT_DIR$/main/templates/zaebest/includes/header.html" />
+        <option value="$PROJECT_DIR$/main/templates/zaebest/pages/search.html" />
+        <option value="$PROJECT_DIR$/main/templates/zaebest/wrapper.html" />
+        <option value="$PROJECT_DIR$/main/templates/zaebest/pages/index.html" />
+        <option value="$PROJECT_DIR$/main/templates/zaebest/includes/nav_button.html" />
+        <option value="$PROJECT_DIR$/main/templates/zaebest/pages/added_places.html" />
+        <option value="$PROJECT_DIR$/main/urls.py" />
+        <option value="$PROJECT_DIR$/main/views.py" />
+        <option value="$PROJECT_DIR$/main/utils.py" />
+        <option value="$PROJECT_DIR$/main/templates/zaebest/includes/modal.html" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -56,10 +246,15 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/main/static/slick-1.5.9/package.json" />
+    </packageJsonPaths>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="1921" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -79,6 +274,32 @@
               <item name="zaebest" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="zaebest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zaebest" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zaebest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zaebest" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="zaebest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zaebest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zaebest" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="zaebest" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zaebest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zaebest" type="462c0819:PsiDirectoryNode" />
+              <item name="zaebest" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -86,11 +307,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../portfolio" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\sites_python\zaebest\main\templates\zaebest\pages" />
+      <recent name="D:\sites_python\zaebest\main\templates\zaebest" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -104,6 +332,32 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="zaebest" type="Python.DjangoServer" factoryName="Django server">
+      <module name="zaebest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="zaebest.settings" />
+      </envs>
+      <option name="SDK_HOME" value="D:\sites_python\python_venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -115,32 +369,41 @@
       <option name="presentableId" value="Default" />
       <updated>1537367568184</updated>
     </task>
+    <task id="LOCAL-00001" summary="up">
+      <created>1537368920132</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537368920132</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32900432" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32987553" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.38589212" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32900432" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3153527" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,9 +412,191 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="up" />
+    <option name="LAST_COMMIT_MESSAGE" value="up" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main/models.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/templates/wrapper.py" />
+    <entry file="file://$PROJECT_DIR$/zaebest/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#631#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/templates/zaebest/includes/footer.py" />
+    <entry file="file://$PROJECT_DIR$/main/templates/zaebest/pages/main.html" />
+    <entry file="file://$PROJECT_DIR$/main/templates/zaebest/includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/templates/zaebest/index.html" />
+    <entry file="file://$PROJECT_DIR$/main/static/css/search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="195" column="23" lean-forward="true" selection-start-line="195" selection-start-column="23" selection-end-line="195" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/templates/zaebest/includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding>
+            <element signature="e#767#773#0#HTML" expanded="true" />
+            <element signature="e#773#779#0#HTML" expanded="true" />
+            <element signature="e#1627#1633#0#HTML" expanded="true" />
+            <element signature="e#1633#1639#0#HTML" expanded="true" />
+            <element signature="e#1814#1820#0#HTML" expanded="true" />
+            <element signature="e#1820#1826#0#HTML" expanded="true" />
+            <element signature="e#1995#2001#0#HTML" expanded="true" />
+            <element signature="e#2001#2007#0#HTML" expanded="true" />
+            <element signature="e#2291#2297#0#HTML" expanded="true" />
+            <element signature="e#2297#2303#0#HTML" expanded="true" />
+            <element signature="e#2490#2496#0#HTML" expanded="true" />
+            <element signature="e#2496#2502#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/templates/zaebest/wrapper.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="79" lean-forward="true" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaebest/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/templates/zaebest/includes/nav_button.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="104" selection-start-line="6" selection-start-column="104" selection-end-line="6" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/templates/zaebest/pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="47" column="109" selection-start-line="47" selection-start-column="109" selection-end-line="47" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/templates/zaebest/pages/added_places.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+          <folding>
+            <element signature="e#1894#1900#0#HTML" expanded="true" />
+            <element signature="e#2016#2022#0#HTML" expanded="true" />
+            <element signature="e#2633#2639#0#HTML" expanded="true" />
+            <element signature="e#3317#3323#0#HTML" expanded="true" />
+            <element signature="e#3323#3329#0#HTML" expanded="true" />
+            <element signature="e#3387#3393#0#HTML" expanded="true" />
+            <element signature="e#3393#3399#0#HTML" expanded="true" />
+            <element signature="e#3613#3619#0#HTML" expanded="true" />
+            <element signature="e#3619#3625#0#HTML" expanded="true" />
+            <element signature="e#3820#3826#0#HTML" expanded="true" />
+            <element signature="e#3826#3832#0#HTML" expanded="true" />
+            <element signature="e#4272#4278#0#HTML" expanded="true" />
+            <element signature="e#4394#4400#0#HTML" expanded="true" />
+            <element signature="e#5011#5017#0#HTML" expanded="true" />
+            <element signature="e#5695#5701#0#HTML" expanded="true" />
+            <element signature="e#5701#5707#0#HTML" expanded="true" />
+            <element signature="e#5764#5770#0#HTML" expanded="true" />
+            <element signature="e#5770#5776#0#HTML" expanded="true" />
+            <element signature="e#6025#6031#0#HTML" expanded="true" />
+            <element signature="e#6031#6037#0#HTML" expanded="true" />
+            <element signature="e#6232#6238#0#HTML" expanded="true" />
+            <element signature="e#6238#6244#0#HTML" expanded="true" />
+            <element signature="e#6697#6703#0#HTML" expanded="true" />
+            <element signature="e#6819#6825#0#HTML" expanded="true" />
+            <element signature="e#7436#7442#0#HTML" expanded="true" />
+            <element signature="e#8215#8221#0#HTML" expanded="true" />
+            <element signature="e#8221#8227#0#HTML" expanded="true" />
+            <element signature="e#8422#8428#0#HTML" expanded="true" />
+            <element signature="e#8428#8434#0#HTML" expanded="true" />
+            <element signature="e#8887#8893#0#HTML" expanded="true" />
+            <element signature="e#9009#9015#0#HTML" expanded="true" />
+            <element signature="e#9626#9632#0#HTML" expanded="true" />
+            <element signature="e#10405#10411#0#HTML" expanded="true" />
+            <element signature="e#10411#10417#0#HTML" expanded="true" />
+            <element signature="e#10612#10618#0#HTML" expanded="true" />
+            <element signature="e#10618#10624#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/templates/zaebest/pages/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="250" column="107" selection-start-line="250" selection-start-column="103" selection-end-line="250" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/templates/zaebest/includes/modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <marker date="1537535044235" expanded="true" signature="336:341" ph="..." />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

@@ -1,0 +1,135 @@
+{% extends "zaebest/wrapper.html" %}
+
+{% block content %}
+{% load staticfiles %}
+{% include "zaebest/includes/header.html" %}
+<div class="container">
+    <!-- НАВИГАЦИЯ -->
+    {% include "zaebest/includes/nav_button.html" %}
+    <!-- НАВИГАЦИЯ КОНЕЦ -->
+    <div class="row m_t20">
+        <div class="col-md-12">
+            <div class="slider bg_white effect_shadow">
+                <img class="img-thumbnail" src="{% static  'images/main/carousel/1.png' %}"/>
+                <img class="img-thumbnail" src="{% static  'images/main/carousel/7.png' %}"/>
+                <img class="img-thumbnail" src="{% static  'images/main/carousel/14.png' %}"/>
+                <img class="img-thumbnail" src="{% static  'images/main/carousel/21.png' %}"/>
+
+                <img class="img-thumbnail" src="{% static  'images/main/carousel/2.png' %}"/>
+                <img class="img-thumbnail" src="{% static  'images/main/carousel/5.png' %}"/>
+                <img class="img-thumbnail" src="{% static  'images/main/carousel/9.png' %}"/>
+                <img class="img-thumbnail" src="{% static  'images/main/carousel/10.png' %}"/>
+
+                <img class="img-thumbnail" src="{% static  'images/main/carousel/3.png' %}"/>
+                <img class="img-thumbnail" src="{% static  'images/main/carousel/16.png' %}"/>
+                <img class="img-thumbnail" src="{% static  'images/main/carousel/19.png' %}"/>
+                <img class="img-thumbnail" src="{% static  'images/main/carousel/20.png' %}"/>
+
+                <img class="img-thumbnail" src="{% static  'images/main/carousel/4.png' %}"/>
+                <img class="img-thumbnail" src="{% static  'images/main/carousel/23.png' %}"/>
+                <img class="img-thumbnail" src="{% static  'images/main/carousel/24.png' %}"/>
+                <img class="img-thumbnail" src="{% static  'images/main/carousel/25.png' %}"/>
+
+                <img class="img-thumbnail" src="{% static  'images/main/carousel/26.png' %}"/>
+                <img class="img-thumbnail" src="{% static  'images/main/carousel/27.png' %}"/>
+                <img class="img-thumbnail" src="{% static  'images/main/carousel/28.png' %}"/>
+                <img class="img-thumbnail" src="{% static  'images/main/carousel/29.png' %}"/>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- НАЧАТЬ НАЧАЛО -->
+
+    <div class="row m_t20">
+        <div class="col-md-5 col-sm-4 col-xs-3" >
+        </div>
+        <div class="col-md-2 col-sm-4 col-xs-6">
+            <button type="button" class="btn btn-info width100 " onClick="location.href='{% url 'search' %}'">Начать</button>
+        </div>
+        <div class="col-md-5 col-sm-4 col-xs-3">
+        </div>
+    </div>
+    <!-- НАЧАТЬ КОНЕЦ -->
+
+
+    <!-- SEO НАЧАЛО -->
+
+    <div class="row m_t20">
+        <div class="col-md-12">
+            <div class="col-md-4 bg_white  p_10">
+                <h3><span class="glyphicon glyphicon-info-sign c_green"></span>&nbsp;О проекте</h3>
+                <p>
+                    Zaebest - это современный и удобный путеводитель, созданный для облегчения поиска мест отдыха.
+                </p>
+            </div>
+            <div class="col-md-4 bg_white  p_10">
+                <h3><span class="glyphicon glyphicon-question-sign c_green"></span>&nbsp;Для кого Zaebest</h3>
+                <p>
+                    Zaebest создан для туристов, а так же для обывателей, которым некогда вспоминать и подбирать места для отдыха и развлечения.
+                </p>
+            </div>
+            <div class="col-md-4 bg_white  p_10">
+                <h3><span class="glyphicon glyphicon-ok-sign c_green"></span>&nbsp;Наши преимущества</h3>
+                <ul>
+                    <li>Широкий спектр категорий для поиска</li>
+                    <li>Интуитивно понятный простой интерфейс</li>
+                    <li>Адаптивный дизайн</li>
+                    <li>Отзывчивая администрация</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- SEO КОНЕЦ -->
+
+
+
+    <!--АДАПТИВНОСТЬ НАЧАЛО-->
+
+    <div class="row">
+        <div class="div_shadow effect2">
+            <div class="jubmo ">
+                <h3 class="text-center jubmo_text_center"><span class="glyphicon glyphicon-phone c_green"></span>&nbsp;На любом устройстве</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-phone m_t20">
+            <div class="main_img">
+                <img class="img-responsive " src="{% static  'images/main/pc.png' %}" alt="Картинка">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-phone m_t20">
+
+            <div class="main_img">
+                <img class="img-responsive " src="{% static  'images/main/note.png' %}" alt="Картинка">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-phone m_t20">
+
+            <div class="main_img">
+                <img class="img-responsive " src="{% static  'images/main/plansh.png' %}" alt="Картинка">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-phone m_t20">
+
+            <div class="main_img">
+                <img class="img-responsive " src="{% static  'images/main/mobile.png' %}" alt="Картинка">
+            </div>
+        </div>
+    </div>
+    <!--АДАПТИВНОСТЬ КОНЕЦ-->
+
+    <!--<div class="row">
+        <div class="div_shadow effect2">
+            <div class="jubmo ">
+                <h3 class="text-center jubmo_text_center"><span class="glyphicon glyphicon-phone c_green"></span>&nbsp;Наши партнеры</h3>
+            </div>
+        </div>
+    </div>-->
+
+</div>
+{% include "zaebest/includes/modal.html" %}
+{% include "zaebest/includes/footer.html" %}
+{% endblock %}

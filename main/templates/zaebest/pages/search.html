@@ -1,0 +1,319 @@
+{% extends "zaebest/wrapper.html" %}
+
+{% block content %}
+{% load staticfiles %}
+{% include "zaebest/includes/header.html" %}
+<div class="container min_height">
+    <!-- НАВИГАЦИЯ -->
+    {% include "zaebest/includes/nav_button.html" %}
+    <!-- НАВИГАЦИЯ КОНЕЦ -->
+    <!-- ФИЛЬТР-->
+    <div class="row m_t20">
+        <div class="col-md-12">
+        <form><!-- ФОРМА -->
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="jubmo">
+                    <h4 class="jubmo_text_left" ><span class="glyphicon glyphicon-map-marker c_green"></span>&nbsp;Расположение</h4>
+                </div>
+                <select class="form-control input-md">
+                    <option>Страна</option>
+                    <option>Россия</option>
+                </select>
+                <select class="form-control input-md m_t20">
+                    <option>Регион</option>
+                    <option>Карелия</option>
+                </select>
+                <select class="form-control input-md m_t20">
+                    <option>Город</option>
+                    <option>Петрозаводск</option>
+                </select>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="jubmo">
+                    <h4 class="jubmo_text_left"><span class="glyphicon glyphicon-align-left c_green"></span>&nbsp;Категории
+
+                        <div class="f_r" >
+                            <button type="button" class="btn_question" id="icon-category-filter"><b>?</b></button>
+                        </div>
+
+                    </h4>
+                </div>
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <a class="accordion_link_orange" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                            <p class="category_text">&nbsp;Завтраки, обеды, ужины</p>
+                        </a>
+                        <div id="collapseOne" class="panel-collapse collapse out">
+                            <div class="panel-body">
+                                <div class="">
+                                    <input type="checkbox" class="checkbox_orange" id="checkbox1_1"/>
+                                    <label for="checkbox1_1">Рестораны</label>
+                                </div>
+                                <div class="">
+                                    <input type="checkbox" class="checkbox_orange" id="checkbox1_2"/>
+                                    <label for="checkbox1_2">Кафе</label>
+                                </div>
+                                <div class="">
+                                    <input type="checkbox" class="checkbox_orange" id="checkbox1_3"/>
+                                    <label for="checkbox1_3">Бары</label>
+                                </div>
+                                <div class="">
+                                    <input type="checkbox" class="checkbox_orange" id="checkbox1_4"/>
+                                    <label for="checkbox1_4">Сушибары</label>
+                                </div>
+                                <div class="">
+                                    <input type="checkbox" class="checkbox_orange" id="checkbox1_5"/>
+                                    <label for="checkbox1_5">Пицерии</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <a class="accordion_link_blue2" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                            <p class="category_text">&nbsp;Гостиницы</p>
+                        </a>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div>
+                                    <input type="checkbox" class="checkbox_blue1" id="checkbox2_1"/>
+                                    <label for="checkbox2_1">Гостиницы</label>
+                                </div>
+                                <div class="">
+                                    <input type="checkbox" class="checkbox_blue1" id="checkbox2_3"/>
+                                    <label for="checkbox2_3">Хостелы</label>
+                                </div>
+                                <div class="">
+                                    <input type="checkbox" class="checkbox_blue1" id="checkbox2_4"/>
+                                    <label for="checkbox2_4">Спа-отели</label>
+                                </div>
+                                <div class="">
+                                    <input type="checkbox" class="checkbox_blue1" id="checkbox2_5"/>
+                                    <label for="checkbox2_5">Квартиры</label>
+                                </div>
+                                <div class="">
+                                    <input type="checkbox" class="checkbox_blue1" id="checkbox2_6"/>
+                                    <label for="checkbox2_6">Апартаменты</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <a class="accordion_link_red" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                            <p class="category_text">&nbsp;Развлечения</p>
+                        </a>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div>
+                                    <input type="checkbox" class="checkbox_red" id="checkbox3_1"/>
+                                    <label for="checkbox3_1">Концерты, шоу</label>
+                                </div>
+                                <div class="">
+                                    <input type="checkbox" class="checkbox_red" id="checkbox3_2"/>
+                                    <label for="checkbox3_2">Аттракционы</label>
+                                </div>
+                                <div class="">
+                                    <input type="checkbox" class="checkbox_red" id="checkbox3_3"/>
+                                    <label for="checkbox3_3">Клубы, дискотеки</label>
+                                </div>
+                                <div class="">
+                                    <input type="checkbox" class="checkbox_red" id="checkbox3_4"/>
+                                    <label for="checkbox3_4">Музеи, выставки</label>
+                                </div>
+                                <div class="">
+                                    <input type="checkbox" class="checkbox_red" id="checkbox3_5"/>
+                                    <label for="checkbox3_5">Театры, кино</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <a class="accordion_link_blue1" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                            <p class="category_text">&nbsp;Активный отдых</p>
+                        </a>
+                        <div id="collapseFour" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="">
+                                    <input type="checkbox" class="checkbox_blue2" id="checkbox4_0"/>
+                                    <label for="checkbox4_0">Туризм, походы</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" class="checkbox_blue2" id="checkbox4_1"/>
+                                    <label for="checkbox4_1">Вело, мото, авто</label>
+                                </div>
+                                <div class="">
+                                    <input type="checkbox" class="checkbox_blue2" id="checkbox4_2"/>
+                                    <label for="checkbox4_2">Экстрим</label>
+                                </div>
+                                <div class="">
+                                    <input type="checkbox" class="checkbox_blue2" id="checkbox4_3"/>
+                                    <label for="checkbox4_3">Прокат</label>
+                                </div>
+                                <div class="">
+                                    <input type="checkbox" class="checkbox_blue2" id="checkbox4_4"/>
+                                    <label for="checkbox4_4">Спотривные&nbsp;игры</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <a class="accordion_link_green" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                            <p class="category_text">&nbsp;Достопримечательности</p>
+                        </a>
+                        <div id="collapseFive" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div>
+                                    <input type="checkbox" class="checkbox_green" id="checkbox5_1"/>
+                                    <label for="checkbox5_1">Памятники</label>
+                                </div>
+                                <div class="">
+                                    <input type="checkbox" class="checkbox_green" id="checkbox5_2"/>
+                                    <label for="checkbox5_2">Площади</label>
+                                </div>
+                                <div class="">
+                                    <input type="checkbox" class="checkbox_green" id="checkbox5_3"/>
+                                    <label for="checkbox5_3">Мосты</label>
+                                </div>
+                                <div class="">
+                                    <input type="checkbox" class="checkbox_green" id="checkbox5_4"/>
+                                    <label for="checkbox5_4">Парки</label>
+                                </div>
+                                <div class="">
+                                    <input type="checkbox" class="checkbox_green" id="checkbox5_5"/>
+                                    <label for="checkbox5_5">Башни</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="jubmo">
+                    <h4 class="jubmo_text_left"><span class="glyphicon glyphicon-indent-left c_green"></span>&nbsp;Сортируем
+
+                        <div class="f_r" >
+                            <button type="button" class="btn_question" id="icon-sort"><b>?</b></button>
+                        </div>
+
+                    </h4>
+                </div>
+                <div class="m_t20">
+                    <input type="radio" class="radio_blue1" id="radio_dop1" name="radio_dop" checked/>
+                    <label for="radio_dop1" class="subcategory_text" >По рейтингу</label>
+
+                </div>
+                <div class="m_t10">
+                    <input type="radio" class="radio_blue1" id="radio_dop2" name="radio_dop" />
+                    <label for="radio_dop2" class="subcategory_text">По увелечению цены</label>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="jubmo">
+                    <h4 class="jubmo_text_left"><span class="glyphicon glyphicon-usd c_green"></span>&nbsp;Стоимость
+
+                        <div class="f_r" >
+                            <button type="button" class="btn_question" id="icon-prise"><b>?</b></button>
+                        </div>
+
+                    </h4>
+                </div>
+                <input type="text" placeholder="Могу потратить" class="form-control" required/>
+                <input type="submit" class="btn btn-info m_t20 width100" value="Найти" />
+            </div>
+        </form><!-- КОНЕЦ ФОРМЫ -->
+        </div>
+    </div>
+    <!-- ФИЛЬТР КОНЕЦ -->
+    <!-- РЕЗУЛЬТАТЫ -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="div_shadow effect2">
+                <div class="jubmo">
+                    <h4 class="text-center jubmo_text_center"><span class="glyphicon glyphicon-ok c_green"></span>&nbsp;Результаты</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-phone zindex1 m_t20">
+            <div class="container_ad">
+                <a href="#" data-toggle="modal" data-target="#modal_ad"></a>
+                <div>
+                    <div class="name_ad">
+                        <span>Дирижабль</span>
+                        <table class="table_info_ad">
+                            <tr>
+                                <td><span class="ad_info">ID:</span></td>
+                                <td><span class="ad_info">999999999&nbsp;</span></td>
+                                <td><span class="ad_info">Добавлено:</span></td>
+                                <td><span class="ad_info">30.08.2016&nbsp;</span></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="img_ad">
+                        <img class="img-responsive img-thumbnail" src="{% static  'images/img_test1.png' %}" alt="Картинка">
+                    </div>
+                    <div class="money_ad">
+                        <table class="table_money_ad tahoma">
+                            <tr>
+                                <td><span>Категория</span></td><td><span class="c_orange font_weight_bold">Рестораны</span></td>
+                            </tr>
+                            <tr>
+                                <td>Рейтинг</td><td><span class="font_weight_bold c_blue1">100%</span></td>
+                            </tr>
+                            <tr>
+                                <td>Средний чек</td><td><span class="font_weight_bold c_blue1">99999</span>&nbsp;руб.</td>
+                            </tr>
+                        </table>
+                        <div class="icon">
+                            <img class="img-responsive" src="{% static  'images/add_ad/options/wifi.png' %}" alt="wifi">
+                        </div>
+                        <div class="icon">
+                            <img class="img-responsive" src="{% static  'images/add_ad/options/wifi.png' %}" alt="telephone">
+                        </div>
+                        <div class="icon">
+                            <img class="img-responsive" src="{% static  'images/add_ad/options/wifi.png' %}" alt="telephone">
+                        </div>
+                        <div class="icon">
+                            <img class="img-responsive" src="{% static  'images/add_ad/options/wifi.png' %}" alt="telephone">
+                        </div>
+                        <div class="icon">
+                            <img class="img-responsive" src="{% static  'images/add_ad/options/wifi.png' %}" alt="telephone">
+                        </div>
+                        <div class="icon">
+                            <img class="img-responsive" src="{% static  'images/add_ad/options/wifi.png' %}" alt="telephone">
+                        </div>
+                        <div class="icon">
+                            <img class="img-responsive" src="{% static  'images/add_ad/options/wifi.png' %}" alt="telephone">
+                        </div>
+                        <div class="icon">
+                            <img class="img-responsive" src="{% static  'images/add_ad/options/wifi.png' %}" alt="telephone">
+                        </div>
+                        <div class="icon">
+                            <img class="img-responsive" src="{% static  'images/add_ad/options/wifi.png' %}" alt="telephone">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- РЕЗУЛЬТАТЫ КОНЕЦ -->
+    <!-- НАВИГАЦИЯ -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="text_center">
+                <ul class="pagination">
+                    <li class="disabled"><span>«</span></li>
+                    <li class="active"><span>1</span></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">»</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- НАВИГАЦИЯ КОНЕЦ -->
+</div>
+{% include "zaebest/includes/modal.html" %}
+{% include "zaebest/includes/footer.html" %}
+{% endblock %}

@@ -1,0 +1,333 @@
+/*--------ЦВЕТА САЙТА--------*/
+.bg_white
+{
+	background:white;
+}
+.bg_gray1
+{
+	background:#333333;
+}
+.bg_gray2
+{
+	background:#3E3E3E;
+}
+.bg_gray3
+{
+	background:#757575;
+}
+.bg_gray4
+{
+	background:#F2F2F2;
+}
+.bg_black
+{
+	background:#222;
+}
+.bg_green1
+{
+	background:#5cb85c;
+}
+.bg_green2
+{
+	background:#4cae4c;
+}
+.bg_blue1
+{
+	background:#428bca;
+}
+.bg_blue2
+{
+	background:#357ebd;
+}
+.bg_blue3
+{
+	background:#5bc0de;
+}
+.bg_red1
+{
+	background:#ff0000;
+}
+.bg_red2
+{
+	background:#DC3535;
+}
+
+.c_white
+{
+	color:white;
+}
+.c_green
+{
+	color:#5cb85c;
+}
+.c_blue
+{
+	color:#428bca;
+}
+/*Использую для CC лицензии*/
+.c_gray1
+{
+	color:#494949;
+}
+.c_gray1 a
+{
+	color:#494949;
+}
+/*Использую для значка подсказки*/
+.c_gray2
+{
+	color:#7C7E82;
+}
+.c_blue1
+{
+	color:#1b77e9;;
+}
+.c_blue2
+{
+	color:#5bc0de;
+}
+.c_red
+{
+	color:#d9534f;
+}
+.c_white
+{
+	color:white;
+}
+.c_orange
+{
+	color:#f0ad4e;
+}
+
+/*-----ЦВЕТА САЙТА КОНЕЦ-----*/
+.height50
+{
+	height:50px;
+}
+/*---- ШРИФТЫ -----*/
+.f_s12
+{
+	font-size:1.2em;
+}
+.decoration
+{
+	height:1em;
+	background:url(../img/index/decoration.png);
+	margin:0;
+	padding:0;
+}
+.m_t20
+{
+	margin-top:20px;
+}
+.m_t10
+{
+	margin-top:10px;
+}
+.m_t5
+{
+	margin-top:5px;
+}
+.f_l
+{
+	float:left;
+}
+.f_r
+{
+	float:right;
+}
+.f_s09
+{
+	font-size:0.9em;
+}
+.m0p0
+{
+	margin:0;
+	padding:0;
+}
+.p_top_bot10
+{
+	padding:10px 0 10px 0;
+}
+/*ТЕНЬ МЕНЮ НАФИГАЦИЯ*/
+.div_shadow 
+{
+    width:100%;
+    min-height:10px;
+    background:#FFF;
+	padding:10px;
+}
+html,body
+{
+	
+}
+body
+{
+	
+}
+/*Этот костыль для убийства паддингов в колонках*/
+.no-gutter
+{
+	padding:0;
+	margin:0;
+}
+.f_s1
+{
+	font-size:0.4em;/*это используется для дополнительного значка в названиях блоков*/
+}
+.tips
+{
+	font-size:0.7em;
+	color:#6e6e6e;
+	margin-top:5px;
+}
+.width100
+{
+	width:100%;
+}
+/*ОБЪЯВЛЕНИЕ*/
+.container_ad
+{
+	width:230px; 
+	height:370px;
+	margin:0 auto;
+	background:#F2F2F2;
+	border-radius:5px;
+}
+.container_ad a
+{
+	position:absolute;
+	width:230px;
+	height:370px;
+	display:block;
+	background:#E6E6E6;
+	opacity:0;
+	z-index:2;
+	border:1px solid #BDBDBD;
+	border-radius:7px;
+	-webkit-transition-duration: 0.4s; 
+	-o-transition-duration: 0.4s; 
+	-moz-transition-duration: 0.4s; 
+	transition-duration: 0.4s;
+}
+.container_ad a:hover
+{
+	opacity:0.5;
+}
+.container_ad>div
+{
+	position:relative;
+	height:inherit;
+	/*background:green;*/
+	z-index:1;
+}
+.name_ad
+{
+	padding:5px;
+	/*background:red;*/
+	text-align:center;
+	font-size:1.3em;
+}
+.img_ad
+{
+	width:inherit;
+	height:230px;
+	/*background:#1c1c1c;*/
+}
+.money_ad
+{
+	padding:5px;
+}
+/*ПАГИНАЦИЯ ПО ЦЕНТРУ*/
+.text_center
+{
+	text-align:center;
+}
+/*ПОДВАЛ*/
+.footer_height
+{
+	min-height:140px;
+}
+/*ПОДВАЛ КАРТА САЙТА*/
+.footer_maps a
+{
+	color:#848484;
+	text-decoration:none;
+	-webkit-transition-duration: 0.5s; 
+	-o-transition-duration: 0.5s; 
+	-moz-transition-duration: 0.5s; 
+	transition-duration: 0.5s;
+}
+.footer_maps a:hover
+{
+	color:white;
+}
+.footer_maps ul
+{
+	margin:0;
+	padding-left:10px;
+}
+.footer_maps ul li
+{
+	list-style:none;
+	margin:0;
+	padding:0;
+	max-width:90px;
+}
+/*СОЦИАЛЬНЫЕ ЭЛЕМЕНТЫ*/
+.footer_social a
+{
+	display:block;
+	width:46px;
+	height:46px;
+	line-height:46px;
+	text-align:center;
+	border-radius:23px;
+	float:left;
+	text-decoration:none;
+	font-size:1.2em;
+	border:1px solid #8b8b8b;
+	color:#8b8b8b;
+	margin:5px;
+	-webkit-transition-duration: 0.5s; 
+	-o-transition-duration: 0.5s; 
+	-moz-transition-duration: 0.5s; 
+	transition-duration: 0.5s;
+}
+.footer_social a:hover
+{
+	color:white;
+	border:1px solid #ffffff;
+}
+/*Класс для оформления блока с заглавием блока*/
+/*Внимание работает норм только для текста по центру*/
+.jubmo
+{
+	background:#F2F2F2;
+	border-radius:6px;
+}
+/*Вспомогательный класс для текста, который по левому краю*/
+.jubmo_text_left
+{
+	padding:10px 0 10px 10px;
+}
+/*Вспомогательный класс для текста, который по центру*/
+.jubmo_text_center
+{
+	padding:10px 0 10px 0;
+}
+/*используем для контейнера, чтобы не прижимать*/
+.min_height
+{
+	min-height:800px;
+}
+@media (min-width: 220px) and (max-width: 479px) { 
+	.col-phone 
+	{
+		width: 100%;
+	}
+	.col-phone-mini
+	{
+		width:50%;
+	}
+}

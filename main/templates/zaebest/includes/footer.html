@@ -1,0 +1,46 @@
+{% block content %}
+{% load staticfiles %}
+<!--ПОДВАЛ-->
+<div id="footer" class="bg_black m_t20">
+<div class="row decoration">
+</div>
+    <div class="container">
+        <div class="row" >
+            <div class="col-md-3 col-sm-3 footer_height footer_maps">
+                <h5 class="c_white">Карта сайта<h5>
+                <ul>
+                    <li><a href="../pages/main.html"><p><span class="glyphicon glyphicon-home"></span> Главная</p></a></li>
+                    <li><a href="search.html"><p><span class="glyphicon glyphicon-search"></span> Поиск</p></a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#modal_specifications"><p><span class="glyphicon glyphicon-info-sign"></span> Правила</p></a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-3 footer_height">
+                <h5 class="c_white">Связь с нами<h5>
+                <p class="c_white"><span class="glyphicon glyphicon-earphone"></span> 8(814)75-75-75</p>
+                <p class="c_white"><span class="glyphicon glyphicon-comment"></span> zaebest@mail.ru</p>
+            </div>
+            <div class="col-md-3 col-sm-3 footer_height footer_social">
+                <h5 class="c_white">Мы в социальных сетях</h5>
+                <a href="#">В</a>
+                <a href="#">f</a>
+                <a href="#">t</a>
+                <a href="#">ok</a>
+
+            </div>
+            <div class="col-md-3 col-sm-3 footer_height footer_social">
+                <h5 class="c_white">Пользователи</h5>
+                <img class="img-responsive img-thumbnail" src="{% static  'images/img_counter.png' %}" alt="Картинка">
+            </div>
+        </div>
+        <!-- Лицензия на значки-->
+        <div class="row">
+            <div class="c_gray1 text-center">Icons made by
+                <a href="http://www.freepik.com" title="Freepik">Freepik</a>
+                from <a href="http://www.flaticon.com" title="Flaticon">
+                www.flaticon.com</a>is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--ПОДВАЛ КОНЕЦ-->
+{% endblock %}
