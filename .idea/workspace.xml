@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0600bbd-8c64-483f-8082-c6ad06a60a83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/templates/zaebest/includes/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/templates/zaebest/includes/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/templates/zaebest/includes/modal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/templates/zaebest/includes/nav_button.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/templates/zaebest/pages/added_places.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/templates/zaebest/pages/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/templates/zaebest/pages/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/templates/zaebest/wrapper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/zaebest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/zaebest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zaebest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/zaebest/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="e0600bbd-8c64-483f-8082-c6ad06a60a83" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,119 +57,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zaebest/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
-              <caret line="96" selection-start-line="96" selection-end-line="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-                <marker date="1537535044235" expanded="true" signature="336:341" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="45" selection-start-column="45" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/templates/zaebest/includes/modal.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/templates/zaebest/pages/added_places.html">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
-                <element signature="e#1894#1900#0#HTML" expanded="true" />
-                <element signature="e#2016#2022#0#HTML" expanded="true" />
-                <element signature="e#2633#2639#0#HTML" expanded="true" />
-                <element signature="e#3317#3323#0#HTML" expanded="true" />
-                <element signature="e#3323#3329#0#HTML" expanded="true" />
-                <element signature="e#3387#3393#0#HTML" expanded="true" />
-                <element signature="e#3393#3399#0#HTML" expanded="true" />
-                <element signature="e#3613#3619#0#HTML" expanded="true" />
-                <element signature="e#3619#3625#0#HTML" expanded="true" />
-                <element signature="e#3820#3826#0#HTML" expanded="true" />
-                <element signature="e#3826#3832#0#HTML" expanded="true" />
-                <element signature="e#4272#4278#0#HTML" expanded="true" />
-                <element signature="e#4394#4400#0#HTML" expanded="true" />
-                <element signature="e#5011#5017#0#HTML" expanded="true" />
-                <element signature="e#5695#5701#0#HTML" expanded="true" />
-                <element signature="e#5701#5707#0#HTML" expanded="true" />
-                <element signature="e#5764#5770#0#HTML" expanded="true" />
-                <element signature="e#5770#5776#0#HTML" expanded="true" />
-                <element signature="e#6025#6031#0#HTML" expanded="true" />
-                <element signature="e#6031#6037#0#HTML" expanded="true" />
-                <element signature="e#6232#6238#0#HTML" expanded="true" />
-                <element signature="e#6238#6244#0#HTML" expanded="true" />
-                <element signature="e#6697#6703#0#HTML" expanded="true" />
-                <element signature="e#6819#6825#0#HTML" expanded="true" />
-                <element signature="e#7436#7442#0#HTML" expanded="true" />
-                <element signature="e#8215#8221#0#HTML" expanded="true" />
-                <element signature="e#8221#8227#0#HTML" expanded="true" />
-                <element signature="e#8422#8428#0#HTML" expanded="true" />
-                <element signature="e#8428#8434#0#HTML" expanded="true" />
-                <element signature="e#8887#8893#0#HTML" expanded="true" />
-                <element signature="e#9009#9015#0#HTML" expanded="true" />
-                <element signature="e#9626#9632#0#HTML" expanded="true" />
-                <element signature="e#10405#10411#0#HTML" expanded="true" />
-                <element signature="e#10411#10417#0#HTML" expanded="true" />
-                <element signature="e#10612#10618#0#HTML" expanded="true" />
-                <element signature="e#10618#10624#0#HTML" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/templates/zaebest/pages/index.html">
+        <entry file="file://$PROJECT_DIR$/guide/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="47" column="109" selection-start-line="47" selection-start-column="109" selection-end-line="47" selection-end-column="109" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/templates/zaebest/pages/search.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="250" column="107" selection-start-line="250" selection-start-column="103" selection-end-line="250" selection-end-column="107" />
+            <state relative-caret-position="1513">
+              <caret line="89" column="50" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -261,49 +168,38 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="zaebest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zaebest" type="462c0819:PsiDirectoryNode" />
+              <item name="guide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guide" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="zaebest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zaebest" type="462c0819:PsiDirectoryNode" />
+              <item name="guide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guide" type="462c0819:PsiDirectoryNode" />
+              <item name="guide" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guide" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="zaebest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zaebest" type="462c0819:PsiDirectoryNode" />
+              <item name="guide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guide" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="zaebest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zaebest" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="zaebest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zaebest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zaebest" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="zaebest" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zaebest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zaebest" type="462c0819:PsiDirectoryNode" />
-              <item name="zaebest" type="462c0819:PsiDirectoryNode" />
+              <item name="guide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,6 +229,48 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <module name="zaebest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="zaebest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="zaebest" type="Python.DjangoServer" factoryName="Django server">
       <module name="zaebest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -355,6 +293,53 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer" factoryName="Flask server">
+      <module name="zaebest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="zaebest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="zaebest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
   </component>
@@ -380,10 +365,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="7" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18976545" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -429,16 +414,20 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/templates/wrapper.py" />
     <entry file="file://$PROJECT_DIR$/zaebest/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#631#663#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -466,20 +455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-          <folding>
-            <element signature="e#767#773#0#HTML" expanded="true" />
-            <element signature="e#773#779#0#HTML" expanded="true" />
-            <element signature="e#1627#1633#0#HTML" expanded="true" />
-            <element signature="e#1633#1639#0#HTML" expanded="true" />
-            <element signature="e#1814#1820#0#HTML" expanded="true" />
-            <element signature="e#1820#1826#0#HTML" expanded="true" />
-            <element signature="e#1995#2001#0#HTML" expanded="true" />
-            <element signature="e#2001#2007#0#HTML" expanded="true" />
-            <element signature="e#2291#2297#0#HTML" expanded="true" />
-            <element signature="e#2297#2303#0#HTML" expanded="true" />
-            <element signature="e#2490#2496#0#HTML" expanded="true" />
-            <element signature="e#2496#2502#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -515,54 +490,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
-          <folding>
-            <element signature="e#1894#1900#0#HTML" expanded="true" />
-            <element signature="e#2016#2022#0#HTML" expanded="true" />
-            <element signature="e#2633#2639#0#HTML" expanded="true" />
-            <element signature="e#3317#3323#0#HTML" expanded="true" />
-            <element signature="e#3323#3329#0#HTML" expanded="true" />
-            <element signature="e#3387#3393#0#HTML" expanded="true" />
-            <element signature="e#3393#3399#0#HTML" expanded="true" />
-            <element signature="e#3613#3619#0#HTML" expanded="true" />
-            <element signature="e#3619#3625#0#HTML" expanded="true" />
-            <element signature="e#3820#3826#0#HTML" expanded="true" />
-            <element signature="e#3826#3832#0#HTML" expanded="true" />
-            <element signature="e#4272#4278#0#HTML" expanded="true" />
-            <element signature="e#4394#4400#0#HTML" expanded="true" />
-            <element signature="e#5011#5017#0#HTML" expanded="true" />
-            <element signature="e#5695#5701#0#HTML" expanded="true" />
-            <element signature="e#5701#5707#0#HTML" expanded="true" />
-            <element signature="e#5764#5770#0#HTML" expanded="true" />
-            <element signature="e#5770#5776#0#HTML" expanded="true" />
-            <element signature="e#6025#6031#0#HTML" expanded="true" />
-            <element signature="e#6031#6037#0#HTML" expanded="true" />
-            <element signature="e#6232#6238#0#HTML" expanded="true" />
-            <element signature="e#6238#6244#0#HTML" expanded="true" />
-            <element signature="e#6697#6703#0#HTML" expanded="true" />
-            <element signature="e#6819#6825#0#HTML" expanded="true" />
-            <element signature="e#7436#7442#0#HTML" expanded="true" />
-            <element signature="e#8215#8221#0#HTML" expanded="true" />
-            <element signature="e#8221#8227#0#HTML" expanded="true" />
-            <element signature="e#8422#8428#0#HTML" expanded="true" />
-            <element signature="e#8428#8434#0#HTML" expanded="true" />
-            <element signature="e#8887#8893#0#HTML" expanded="true" />
-            <element signature="e#9009#9015#0#HTML" expanded="true" />
-            <element signature="e#9626#9632#0#HTML" expanded="true" />
-            <element signature="e#10405#10411#0#HTML" expanded="true" />
-            <element signature="e#10411#10417#0#HTML" expanded="true" />
-            <element signature="e#10612#10618#0#HTML" expanded="true" />
-            <element signature="e#10618#10624#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -589,12 +523,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <marker date="1537535044235" expanded="true" signature="336:341" ph="..." />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
         </state>
       </provider>
     </entry>
